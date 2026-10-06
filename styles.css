@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    background: #f2f2f2;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    background: #3f454a;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.btn-contacto {
+    background: #b44a2f;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+/* HERO */
+.hero {
+    padding: 25px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 26px;
+    color: #2b2f33;
+}
+
+.cta {
+    display: block;
+    background: #b44a2f;
+    color: white;
+    padding: 12px;
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.subcta {
+    font-size: 14px;
+    color: #555;
+}
+
+.hero-info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    color: #444;
+}
+
+/* SECCIONES */
+.section {
+    padding: 25px;
+}
+
+.section h2 {
+    font-size: 22px;
+    color: #2b2f33;
+    margin-bottom: 15px;
+}
+
+/* SERVICIOS */
+.servicios-list {
+    list-style: none;
+    padding: 0;
+}
+
+.servicios-list li {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border-left: 4px solid #b44a2f;
+}
+
+/* TRABAJOS */
+.trabajo {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.trabajo img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* CONTACTO */
+.contacto {
+    text-align: center;
+    padding: 25px;
+}
+
+.telefono {
+    font-size: 28px;
+    color: #b44a2f;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.whatsapp {
+    display: block;
+    background: #4a525a;
+    color: white;
+    padding: 12px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #3f454a;
+    color: white;
+    font-size: 14px;
+}

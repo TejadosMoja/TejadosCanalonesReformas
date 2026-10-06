@@ -263,30 +263,3 @@ body {
     }
 }
 
-/* Patrón geométrico fuerte en tonos teja + blanco */
-body {
-  background-color: #ffffff; /* blanco puro de fondo */
-  background-image: repeating-linear-gradient(
-    45deg,
-    #d94f4f 0,
-    #d94f4f 10px,
-    #ffffff 10px,
-    #ffffff 20px
-  ),
-  repeating-linear-gradient(
-    -45deg,
-    #d94f4f 0,
-    #d94f4f 10px,
-    #ffffff 10px,
-    #ffffff 20px
-  );
-  background-size: 40px 40px;
-}
-
-body {
-    background-repeat: repeat;
-    background-size: 90px; /* tamaño equilibrado */
-    background-position: center;
-    background-attachment: fixed;
-}
-

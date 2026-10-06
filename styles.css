@@ -148,7 +148,6 @@ body {
         font-size: 18px;
     }
 
-    /* HEADER */
     .header {
         padding: 20px 40px;
     }
@@ -162,7 +161,6 @@ body {
         font-size: 18px;
     }
 
-    /* HERO */
     .hero {
         padding: 60px 120px;
         text-align: left;
@@ -194,7 +192,6 @@ body {
         font-size: 18px;
     }
 
-    /* SECCIONES */
     .section {
         max-width: 1200px;
         margin: auto;
@@ -206,7 +203,6 @@ body {
         margin-bottom: 25px;
     }
 
-    /* SERVICIOS */
     .servicios-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -218,7 +214,6 @@ body {
         padding: 18px;
     }
 
-    /* TRABAJOS */
     #trabajos {
         max-width: 1200px;
     }
@@ -244,7 +239,6 @@ body {
         font-size: 18px;
     }
 
-    /* CONTACTO */
     .contacto {
         max-width: 900px;
         margin: auto;
@@ -263,10 +257,8 @@ body {
         margin: 10px;
     }
 
-    /* FOOTER */
     .footer {
         padding: 25px;
         font-size: 16px;
     }
 }
-

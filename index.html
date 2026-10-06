@@ -1,144 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tejados, Canalones y Reformas · Moja</title>
-
-  <!-- SEO -->
-  <meta name="description" content="Especialistas en tejados, canalones e impermeabilizaciones en Cantabria. Más de 10 años de experiencia. Presupuesto sin compromiso." />
-  <meta name="keywords" content="tejados, canalones, reformas, impermeabilización, tejado, mantenimiento tejados, reparaciones, Cantabria, Camargo, Moja" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Tejados, Canalones y Reformas · Moja" />
-  <meta property="og:description" content="Profesionales en reparación e instalación de tejados y canalones. Trabajo garantizado. Presupuesto gratis." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="logo.jpg" />
-  <meta property="og:locale" content="es_ES" />
-
-  <style>
-    :root {
-      --color-principal: #c30000;
-      --color-texto: #222;
-      --max-ancho: 900px;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      color: var(--color-texto);
-      /* fondo general si quieres poner también imagen de tejas detrás de todo: */
-      /* background: url('fondo-tejas.jpg') center/cover no-repeat; */
-    }
-
-    header {
-      text-align: center;
-      padding: 30px 20px;
-    }
-
-    header img {
-      width: 240px;
-      max-width: 80%;
-      height: auto;
-    }
-
-    main {
-      max-width: var(--max-ancho);
-      margin: auto;
-      padding: 20px;
-      background: rgba(255, 255, 255, 0.80) url('fondo-tejas.jpg') center/cover no-repeat;
-      background-blend-mode: lighten;
-      border-radius: 8px;
-
-      /* efectito vidrio (opcional) */
-      @supports ((-webkit-backdrop-filter: blur(5px)) or (backdrop-filter: blur(5px))) {
-        background: rgba(255, 255, 255, 0.60);
-        -webkit-backdrop-filter: blur(4px);
-        backdrop-filter: blur(4px);
-      }
-    }
-
-    h1, h2 {
-      text-align: center;
-      color: var(--color-texto);
-    }
-
-    h1 {
-      margin-bottom: 10px;
-    }
-
-    .intro {
-      font-size: 1.1em;
-      line-height: 1.6em;
-      text-align: center;
-      margin-bottom: 30px;
-    }
-
-    ul {
-      line-height: 1.7em;
-      font-size: 1.05em;
-    }
-
-    .contacto {
-      margin-top: 40px;
-      text-align: center;
-      font-size: 1.3em;
-    }
-
-    .telefono {
-      font-size: 2em;
-      color: var(--color-principal);
-      font-weight: bold;
-    }
-
-    footer {
-      margin-top: 60px;
-      background: #f3f3f3;
-      padding: 20px;
-      text-align: center;
-      font-size: 0.9em;
-    }
-
-    @media (max-width: 600px) {
-      h1 { font-size: 1.8em; }
-      h2 { font-size: 1.4em; }
-      .intro { font-size: 1em; }
-      .telefono { font-size: 1.6em; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOJA · Tejados · Canalones · Reformas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-  <header>
-    <img src="logo.jpg" alt="Logotipo Tejados y Reformas Moja" />
-  </header>
+<header class="header">
+    <div class="logo">MOJA</div>
+    <nav class="nav">
+        <a href="#servicios">Servicios</a>
+        <a href="#trabajos">Trabajos</a>
+        <a href="#contacto" class="btn-contacto">Contacto</a>
+    </nav>
+</header>
 
-  <main>
+<section class="hero">
     <h1>Tejados, Canalones y Reformas — Moja</h1>
-
-    <p class="intro">
-      Profesional con más de 10 años de experiencia en instalación, reparación y mantenimiento de tejados, canalones e impermeabilizaciones. Servicio rápido, económico y garantizado en Cantabria.
+    <p>
+        Profesional con más de 10 años de experiencia en instalación, reparación y mantenimiento 
+        de tejados, canalones e impermeabilizaciones. Servicio rápido, económico y garantizado en Cantabria.
     </p>
 
-    <h2>Servicios</h2>
-    <ul>
-      <li>Instalación de tejado completo (teja, chapa, mixto…)</li>
-      <li>Reparación de goteras y filtraciones</li>
-      <li>Impermeabilización de cubiertas y terrazas</li>
-      <li>Instalación y limpieza de canalones</li>
-      <li>Mantenimiento general de tejados</li>
-      <li>Reformas y arreglos en cubiertas</li>
-    </ul>
+    <a href="tel:643687809" class="cta">Llamar ahora: 643 687 809</a>
+    <span class="subcta">Presupuesto gratuito y sin compromiso</span>
 
-    <div class="contacto">
-      Presupuesto gratuito y sin compromiso:<br />
-      <span class="telefono">643 687 809</span>
+    <div class="hero-info">
+        <div>+10 Años de experiencia</div>
+        <div>Urgencias 24h</div>
+        <div>Garantía asegurada</div>
     </div>
-  </main>
+</section>
 
-  <footer>
+<section id="servicios" class="section">
+    <h2>Nuestros Servicios</h2>
+
+    <ul class="servicios-list">
+        <li>Instalación de tejado completo (teja, chapa, mixto...)</li>
+        <li>Reparación de goteras y filtraciones</li>
+        <li>Impermeabilización de cubiertas y terrazas</li>
+        <li>Instalación y limpieza de canalones</li>
+        <li>Mantenimiento general de tejados</li>
+        <li>Reformas y arreglos en cubiertas</li>
+    </ul>
+</section>
+
+<section id="trabajos" class="section">
+    <h2>Trabajos realizados</h2>
+
+    <div class="trabajo">
+        <img src="img1.jpg" alt="Tejado en proceso">
+        <h3>Tejado en proceso</h3>
+        <p>Instalación de tejado cerámico con sistema impermeable.</p>
+    </div>
+
+    <div class="trabajo">
+        <img src="img2.jpg" alt="Tejado en proceso 2">
+        <h3>Tejado en proceso</h3>
+        <p>Colocación de teja cerámica en cubierta completa.</p>
+    </div>
+
+    <div class="trabajo">
+        <img src="img3.jpg" alt="Tejado con ventanas">
+        <h3>Tejado con ventanas</h3>
+        <p>Instalación de ventanas de tejado y remates.</p>
+    </div>
+
+    <div class="trabajo">
+        <img src="img4.jpg" alt="Tejado de pizarra">
+        <h3>Tejado de pizarra</h3>
+        <p>Colocación de pizarra natural en cubierta inclinada.</p>
+    </div>
+
+    <div class="trabajo">
+        <img src="img5.jpg" alt="Tejado de pizarra urbano">
+        <h3>Tejado de pizarra</h3>
+        <p>Reforma completa de tejado en entorno urbano.</p>
+    </div>
+</section>
+
+<section id="contacto" class="contacto">
+    <h2>Contacto rápido</h2>
+    <p>Presupuesto gratuito y sin compromiso:</p>
+    <div class="telefono">643 687 809</div>
+
+    <a href="tel:643687809" class="cta">Llamar ahora</a>
+    <a href="https://wa.me/34643687809" class="whatsapp">Escríbenos por WhatsApp</a>
+</section>
+
+<footer class="footer">
     © 2025 Moja · Tejados · Canalones · Reformas · Cantabria
-  </footer>
+</footer>
 
 </body>
 </html>
